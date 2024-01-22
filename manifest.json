@@ -1,0 +1,14 @@
+{
+  "name": "Firepoker Cheat",
+  "namespace": "https://santus.dev/",
+  "version": "0.0.1",
+  "description": "Reveal Points for Firepoker",
+  "author": "Krisantus Wanandi (https://github.com/krisantuswanandi)",
+  "match": [
+    "https://firepoker.app/**"
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=firepoker.app",
+  "run-at": "document-body",
+  "license": "MIT",
+  "supportURL": "https://github.com/krisantuswanandi/firepoker-cheat"
+}
