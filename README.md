@@ -12,6 +12,10 @@ or install manually:
 2. Create a new script and paste the content of `dist/script.js` into it.
 3. Refresh Firepoker and enjoy!
 
+## Usage
+
+- Hold `x` to reveal other's story points.
+
 ## Development
 
 - Install [bun](https://bun.sh/) if you haven't `brew install oven-sh/bun/bun`.
