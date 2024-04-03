@@ -1,13 +1,22 @@
 import metadata from "./metadata";
-import code from "./code";
+import { generateUserScript } from "./user-script";
 
-const result = `${metadata}
+const FILENAME = "dist/script.js";
+
+export async function build() {
+  try {
+    const script = await generateUserScript();
+    const result = `${metadata}
 (function () {
 
 "use strict";
 
-${code}
+${script}
 })();
 `;
 
-Bun.write("index.js", result);
+    Bun.write(FILENAME, result);
+  } catch {}
+}
+
+await build();
