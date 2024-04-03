@@ -1,12 +1,15 @@
 {
   "name": "firepoker-cheat",
-  "module": "index.js",
+  "version": "0.0.1",
+  "module": "dist/script.js",
   "type": "module",
   "scripts": {
     "build": "bun scripts/build.ts",
-    "dev": "bun scripts/dev.ts"
+    "dev": "bun scripts/dev.ts",
+    "release": "bumpp"
   },
   "devDependencies": {
+    "bumpp": "^9.4.0",
     "bun-types": "latest"
   },
   "peerDependencies": {
