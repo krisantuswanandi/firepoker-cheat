@@ -8,7 +8,7 @@
 // @run-at document-body
 // @license MIT
 // @supportURL https://github.com/krisantuswanandi/firepoker-cheat
-// @version 0.0.2
+// @version 0.0.3
 // ==/UserScript==
 
 (function () {
