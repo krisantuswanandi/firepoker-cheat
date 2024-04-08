@@ -1,6 +1,6 @@
 {
   "name": "firepoker-cheat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "dist/script.js",
   "type": "module",
   "scripts": {
